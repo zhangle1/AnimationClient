@@ -121,7 +121,7 @@ List<BottomNavigationBarItem> _buildBottomNavigationBarItem() {
       //   ),
       // ]
     ];
-    List<BottomNavigationBarItem>  _list = List.generate(4, (i) {
+    List<BottomNavigationBarItem>  _list = List.generate(3, (i) {
       return BottomNavigationBarItem(
           icon: _tabImages[i][0],
           activeIcon: _tabImages[i][1],
